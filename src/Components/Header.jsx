@@ -2,8 +2,8 @@ import Logo from "../assets/Logo.png";
 
 export default function Header() {
   return (
-    <div className="bg-white">
-      <div className="p-10 flex flex-row justify-between items-center">
+    <div className="bg-white p-5">
+      <div className=" flex flex-row justify-between items-center">
         <div className="flex flex-row gap-20 items-center">
           <div>
             <img src={Logo} alt="web site logo" />
