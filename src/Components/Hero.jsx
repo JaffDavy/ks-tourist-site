@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-full h-[75vh] relative overflow-visible">
+    <div className=" w-full h-[75vh] relative overflow-visible">
       <div className="absolute inset-0 bg-[url('/heroic.png')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 flex flex-col justify-between py-10 px-10">
           <div className="flex flex-col gap-5 p-20">
-            <h1 className="text-white text-7xl font-bold leading-tight">
+            <h1 className="text-white text-7xl font-bold leading-tight font-lora">
               Experience the beauty
               <br />
               of Rwanda with us
