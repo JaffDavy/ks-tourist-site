@@ -1,6 +1,6 @@
 export default function Details() {
   return (
-    <div className="py-20">
+    <div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-2 px-20 self-center mb-20">
         <div className="bg-[#304F47] rounded-4xl shadow-lg overflow-hidden h-[80%] w-[70%] flex flex-col items-center p-3">
           <div class="md:shrink-0">

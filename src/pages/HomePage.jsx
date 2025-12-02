@@ -4,6 +4,7 @@ import Packages from "../Components/Packages";
 import Popular from "../Components/Popular";
 import ClientsSay from "../Components/ClientsSay";
 import Details from "../Components/Details";
+import Footer from "../Components/Footer";
 
 export default function HomePage() {
   return (
@@ -40,7 +41,15 @@ export default function HomePage() {
         </h1>
       </div>
       <Details />
+      <div className="text-center my-20 flex flex-col gap-5">
+        <h3 className="text-[#d19a28] text-3xl">Our Traveller Say</h3>
+        <h1 className="text-6xl">
+          What our clients say
+          <br /> about us
+        </h1>
+      </div>
       <ClientsSay />
+      <Footer />
     </div>
   );
 }
