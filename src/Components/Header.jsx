@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router";
+
 export default function Header() {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-white p-5">
       <div className=" flex flex-row justify-between items-center">
@@ -7,8 +11,22 @@ export default function Header() {
             <img src="/Logo.png" alt="web logo" />
           </div>
           <div className="flex flex-row gap-20 items-center text-lg font-Muli">
-            <nav>Home</nav>
-            <nav>About</nav>
+            <nav
+              className="cursor-pointer"
+              onClick={() => {
+                navigate("/home");
+              }}
+            >
+              Home
+            </nav>
+            <nav
+              className="cursor-pointer"
+              onClick={() => {
+                navigate("/about-us");
+              }}
+            >
+              About
+            </nav>
             <nav>Tour Package</nav>
             <nav>Gallery</nav>
             <nav>Blog</nav>
