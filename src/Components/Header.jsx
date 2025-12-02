@@ -1,12 +1,10 @@
-import Logo from "../assets/Logo.png";
-
 export default function Header() {
   return (
     <div className="bg-white p-5">
       <div className=" flex flex-row justify-between items-center">
         <div className="flex flex-row gap-20 items-center">
           <div>
-            <img src={Logo} alt="web site logo" />
+            <img src="/Logo.png" alt="web logo" />
           </div>
           <div className="flex flex-row gap-20 items-center text-lg font-Muli">
             <nav>Home</nav>
