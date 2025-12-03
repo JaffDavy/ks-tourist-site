@@ -1,74 +1,73 @@
 export default function Details() {
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 px-20 self-center mb-20">
-        <div className="bg-[#304F47] rounded-4xl shadow-lg overflow-hidden h-[80%] w-[70%] flex flex-col items-center p-3">
-          <div class="md:shrink-0">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="bg-[#304F47] rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+          <div className="mb-4">
             <img
               src="/Vector.png"
-              alt="a picture of a giraffe"
-              className="h-24 w-24 object-cover md:h-10 self-center md:w-10"
+              alt="Map icon"
+              className="h-16 w-16 object-cover"
             />
           </div>
-
-          <div className="p-8">
+          <div className="p-4">
             <a
               href="#"
-              className="block mt-1 text-lg leading-tight font-medium text-white hover:underline text-center"
+              className="block text-lg leading-tight font-medium text-white hover:underline"
             >
               100+ tours around Rwanda
             </a>
           </div>
         </div>
-        <div className="bg-[#304F47] rounded-4xl shadow-lg overflow-hidden h-[80%] w-[70%] flex flex-col items-center p-3">
-          <div class="md:shrink-0">
+
+        <div className="bg-[#304F47] rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+          <div className="mb-4">
             <img
               src="/CheckCircleOutlined.png"
-              alt="a picture of a giraffe"
-              className="h-24 w-24 object-cover md:h-10 self-center md:w-10"
+              alt="Check icon"
+              className="h-16 w-16 object-cover"
             />
           </div>
-
-          <div className="p-8">
+          <div className="p-4">
             <a
               href="#"
-              className="block mt-1 text-lg leading-tight font-medium text-white hover:underline text-center"
+              className="block text-lg leading-tight font-medium text-white hover:underline"
             >
               100% Trusted travel agency
             </a>
           </div>
         </div>
-        <div className="bg-[#304F47] rounded-4xl shadow-lg overflow-hidden h-[80%] w-[70%] flex flex-col items-center p-3">
-          <div class="md:shrink-0">
+
+        <div className="bg-[#304F47] rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+          <div className="mb-4">
             <img
               src="/profileicon.png"
-              alt="a picture of a giraffe"
-              className="h-24 w-24 object-cover md:h-10 self-center md:w-10"
+              alt="Profile icon"
+              className="h-16 w-16 object-cover"
             />
           </div>
-
-          <div className="p-8">
+          <div className="p-4">
             <a
               href="#"
-              className="block mt-1 text-lg leading-tight font-medium text-white hover:underline text-center"
+              className="block text-lg leading-tight font-medium text-white hover:underline"
             >
               10 years of travel experience
             </a>
           </div>
         </div>
-        <div className="bg-[#304F47] rounded-4xl shadow-lg overflow-hidden h-[80%] w-[70%] flex flex-col items-center p-3">
-          <div class="md:shrink-0">
+
+        <div className="bg-[#304F47] rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+          <div className="mb-4">
             <img
               src="/like.png"
-              alt="a picture of a giraffe"
-              className="h-24 w-24 object-cover md:h-10 self-center md:w-10"
+              alt="Like icon"
+              className="h-16 w-16 object-cover"
             />
           </div>
-
-          <div className="p-8">
+          <div className="p-4">
             <a
               href="#"
-              className="block mt-1 text-lg leading-tight font-medium text-white hover:underline text-center"
+              className="block text-lg leading-tight font-medium text-white hover:underline"
             >
               90% of travelors are happy
             </a>

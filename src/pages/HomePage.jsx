@@ -10,8 +10,10 @@ export default function HomePage() {
   return (
     <div>
       <Header />
-      <Hero />
-      <div className="text-center my-20 flex flex-col gap-5">
+      <div className="mb-[-150px]">
+        <Hero />
+      </div>
+      <div className="text-center mt-20 mb-20 flex flex-col gap-5 pt-[150px] md:pt-[150px]">
         <h3 className="text-[#d19a28] text-3xl">Choose Your Package</h3>
         <h1 className="text-6xl">
           Select your Best Package <br /> for your Travel
