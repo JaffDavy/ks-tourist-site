@@ -1,10 +1,10 @@
-import Header from "../Components/Header";
-import Hero from "../Components/Hero";
-import Packages from "../Components/Packages";
-import Popular from "../Components/Popular";
-import ClientsSay from "../Components/ClientsSay";
-import Details from "../Components/Details";
-import Footer from "../Components/Footer";
+import Header from "../Components/HomePage/Header";
+import Hero from "../Components/HomePage/Hero";
+import Packages from "../Components/HomePage/Packages";
+import Popular from "../Components/HomePage/Popular";
+import ClientsSay from "../Components/HomePage/ClientsSay";
+import Details from "../Components/HomePage/Details";
+import Footer from "../Components/HomePage/Footer";
 
 export default function HomePage() {
   return (
