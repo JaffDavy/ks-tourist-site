@@ -35,12 +35,20 @@ export default function Header() {
             <a
               href="#"
               className="hover:text-[#c7923E] transition duration-200"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate("/tour-package");
+              }}
             >
               Tour Package
             </a>
             <a
               href="#"
               className="hover:text-[#c7923E] transition duration-200"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate("/gallery");
+              }}
             >
               Gallery
             </a>
