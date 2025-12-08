@@ -1,16 +1,37 @@
-# React + Vite
+# Ks Tourist Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Home](./public/homepage.png)
 
-Currently, two official plugins are available:
+# About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site is a 5 page app that makes use of router to switch the various pages home, about, tour package, gallery and contact us
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Tailwind
 
-## Expanding the ESLint configuration
+## Clone project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with `git@github.com:JaffDavy/ks-tourist-site.git` using your terminal or command line.
+
+## Command line steps
+
+- $ git clone `$ git@github.com:JaffDavy/ks-tourist-site.git`
+
+## Start App
+
+- run `npm install`
+- run `npm start` in your command line
+
+## Live Site
+
+[Link](ks-tourist-site-git-development-jaffdavys-projects.vercel.app)
+
+## Author
+
+👤 **Jaff Davy-Arnold**
+
+- GitHub: [@JaffDavy](https://github.com/JaffDavy/)
+- LinkedIn: [Jaff Davy-Arnold](https://www.linkedin.com/in/jaff-davy-arnold-5ba749297/)
