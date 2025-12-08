@@ -1,7 +1,7 @@
 export default function Socials() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 px-100 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 px-4 md:px-10 lg:px-20">
         <div className="bg-white rounded-3xl shadow-2xl p-6 flex flex-col border border-gray-300 h-40">
           <div className="p-2">
             <a
@@ -15,7 +15,7 @@ export default function Socials() {
             <img
               src="/socialicons.png"
               alt="Map icon"
-              className="h-16 w-100 object-fit"
+              className="h-16 object-fit"
             />
           </div>
         </div>
@@ -38,7 +38,6 @@ export default function Socials() {
               <img src="/mailicon.png" alt="" />
               <p className="text-[#304F47]">bbonteemma@gmail.com</p>
             </div>
-            <div></div>
           </div>
         </div>
 
@@ -48,7 +47,7 @@ export default function Socials() {
               href="#"
               className="block text-2xl leading-tight font-medium text-[#304F47] hover:underline"
             >
-              Email & Phone
+              Location
             </a>
           </div>
           <div className="mb-4 text-[#304F47]">

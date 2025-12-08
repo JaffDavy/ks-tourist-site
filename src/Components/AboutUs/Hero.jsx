@@ -12,6 +12,7 @@ export default function Hero() {
           <p className="mt-4 text-gray-600 text-lg">
             Discover the Land of a Thousand Hills
           </p>
+
           <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-4 justify-between bg-white p-6 md:p-7 rounded-lg shadow-xl lg:w-[120%] relative lg:left-5 z-10">
             <div className="flex flex-col w-full sm:w-auto">
               <label className="text-sm text-[#808796] font-semibold">
@@ -50,6 +51,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
+
         <div className="relative hidden lg:block">
           <img
             src="/about-hero.jpg"

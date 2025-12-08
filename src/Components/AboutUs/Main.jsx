@@ -7,6 +7,7 @@ export default function Main() {
         </h1>
         <p className="bg-black h-1 w-40 md:w-60 self-center"></p>
       </div>
+
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-20 px-4 md:px-20 py-10 md:py-16 w-full">
         <div className="w-full md:w-1/2">
           <img
