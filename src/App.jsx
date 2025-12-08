@@ -10,6 +10,7 @@ import ContactUs from "./pages/ContactUs";
 function App() {
   return (
     <Routes>
+      <Route path="/" Component={HomePage} />
       <Route path="/home" Component={HomePage} />
       <Route path="/about-us" Component={AboutUs} />
       <Route path="/tour-package" Component={tourPackage} />
