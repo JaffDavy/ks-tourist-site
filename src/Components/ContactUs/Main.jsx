@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <div className="py-10 flex flex-col justify-center gap-8 border border-gray-300 rounded-lg mb-20 w-fit">
+    <div className="py-10 flex flex-col justify-center gap-8 border border-gray-300 rounded-lg mb-20 w-fit max-w-[1024px] mx-auto p-10">
       <h1 className="text-4xl">Contact us</h1>
       <div className="flex flex-row gap-5">
         <div>

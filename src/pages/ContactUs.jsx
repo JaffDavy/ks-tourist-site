@@ -1,6 +1,8 @@
 import Header from "../Components/HomePage/Header";
 import Hero from "../Components/ContactUs/Hero";
 import Main from "../Components/ContactUs/Main";
+import Socials from "../Components/ContactUs/socials";
+import Footer from "../Components/HomePage/Footer";
 
 export default function ContactUs() {
   return (
@@ -17,6 +19,8 @@ export default function ContactUs() {
         </h1>
       </div>
       <Main />
+      <Socials />
+      <Footer />
     </div>
   );
 }
